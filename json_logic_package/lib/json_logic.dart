@@ -1,7 +1,5 @@
 library json_logic;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'data/DTOs/posts_dto.dart';
+export 'domain/usecases/listOfPosts/list_of_posts_use_case.dart'; //ver esse cara
+export 'core/adapter/inject.dart';
