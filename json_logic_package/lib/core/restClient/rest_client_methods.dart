@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:json_logic/core/restClient/rest_client_contracts.dart';
-import 'package:json_logic/core/restClient/rest_client_response.dart';
+import 'package:json_logic_package/core/restClient/rest_client_contracts.dart';
+import 'package:json_logic_package/core/restClient/rest_client_response.dart';
 
 class RestClientInitialize extends RestClientOptions {
   

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:json_logic/core/restClient/rest_client_response.dart';
+import 'package:json_logic_package/core/restClient/rest_client_response.dart';
 
  class RestClientOptions {
   late Dio dio;

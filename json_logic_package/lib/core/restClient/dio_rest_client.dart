@@ -1,7 +1,7 @@
 
 
-import 'package:json_logic/core/restClient/rest_client_contracts.dart';
-import 'package:json_logic/core/restClient/rest_client_response.dart';
+import 'package:json_logic_package/core/restClient/rest_client_contracts.dart';
+import 'package:json_logic_package/core/restClient/rest_client_response.dart';
 
 class DioRestClientImpl extends RestClientOptions implements DioRestClient {
   final RestClientGet _get;
